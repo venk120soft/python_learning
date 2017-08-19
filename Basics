@@ -1,0 +1,18 @@
+#We will use # for single line comments
+''' we will use 3 single quotes or 3 double quotes for 
+multi line comment'''
+""" 3 double quotes have a special meaning in function or class defination.
+this comment will be treated like a xml comment(in C#) 
+Multi-line comments are typically used to add descriptive help at the start of a script, but also work to embed comment text within a command.
+Ex: def sum(x,y):
+        """ this is a Method1 which defines
+        sum of x, y"""
+        return x+y
+
+then while we try to access the method that message will be shown to us
+"""
+''' One more use of 3 double quotes is what ever we write with in the 3 double quotes that will be printed as it is.
+ex: myString="""This is the string \n treated as it is "C://ram/laxman" """
+print(mystring)
+This is the string \n treated as it is "C://ram/laxman" 
+'''
